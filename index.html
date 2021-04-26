@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Transaction Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<style>
+    .form {
+        margin: 0 auto;
+        width: 210px;
+    }
+    .form label{
+        display: inline-block;
+        text-align:right;
+        float: left;
+    }
+    .form input{
+        display: inline-block;
+        text-align:left;
+        float: right;
+    }
+</style>
+<body>
+    <div class="ui container">
+        <br>
+        <h1 style="text-align:center;">Customer Transaction Prediction</h1>
+
+        <form class="ui form" method="POST" action="/predict">
+            <div class="field">
+                <label>Transaction1</label>
+                <input name='v1' type="text">
+                <label>Transaction2</label>
+                <input name='v2' type="text">
+                <label>Transaction3</label>
+                <input name='v3' type="text">
+                <label>Transaction4</label>
+                <input name='v4' type="text">
+                <label>Transaction5</label>
+                <input name='v5' type="text">
+                <label>Transaction6</label>
+                <input name='v6' type="text">
+                <label>Transaction7</label>
+                <input name='v7' type="text">
+                <label>Transaction8</label>
+                <input name='v8' type="text">
+                <label>Transaction9</label>
+                <input name='v9' type="text">
+                <label>Transaction10</label>
+                <input name='v10' type="text">
+            </div>
+            
+
+            <button type="submit" class="ui button">Submit</button>
+
+        </form>
+
+    </div>
+</body>
+</html>
